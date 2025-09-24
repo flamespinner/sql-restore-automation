@@ -13,6 +13,13 @@ This project demonstrates an **event-driven database restore pipeline** using Po
 - `src/listener.ps1` → main script
 - `docs/` → documentation and diagrams
 
+## Prerequisites
+- Windows Powershell 7.0 or later
+- Modules:
+  - [Az](https://learn.microsoft.com/powershell/azure/new-azureps-module-az)
+  - [SqlServer](https://www.powershellgallery.com/packages/SqlServer)
+  - [Microsoft Graph PowerShell SDK](https://learn.microsoft.com/graph/powershell/installation) 
+
 ## Usage
 1. Clone repo
 2. Update Config
